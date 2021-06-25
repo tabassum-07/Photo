@@ -1,0 +1,245 @@
+body{
+    line-height: 1.6;
+}
+img{
+    width: 100%;
+    display: block;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 15px 0;
+}
+
+
+.container{
+    width: 90vw;
+    margin: 0 auto;
+}
+.btn{
+    background: white;
+    border: none;
+    display: block;
+    width: 150px;
+    text-align: center;
+    color:black;
+    text-transform: uppercase;
+    background: transparent;
+    font-size: 15px;
+    padding: 12px;
+    border: 2px solid green!important;
+  border-radius: 3.25rem!important;
+    margin: 15px 0;
+    transition: transition;
+}
+.btn:hover{
+    background: green!important;
+    color: #fff;
+}
+
+
+.header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/header.jpg') ;
+ background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+position: relative;
+}
+.about{
+   margin-top: -0.6px;
+}
+.about-content img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+   
+
+}
+.about-img{
+   
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.about-content h2{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 35px;
+    color: green;
+    font-weight: bold;
+ 
+    
+   
+}
+.about-content h3{
+  color: #fff;
+font-size: 30px;
+font-weight: 100;
+width: 400px;
+margin: 26px auto;
+text-align: center;
+}
+blockquote{
+    font-size: 23px;
+    font-weight: 400;
+  
+    width: 60vw;
+    margin: 0 0 15px 0;
+    text-align: justify;
+    color: #fff;
+   
+}
+blockquote span{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: darkgreen!important;
+    font-weight: bold;
+    letter-spacing: 5px;
+    display: block;
+    text-align: center;
+}
+.social-icons{
+    width: 350px;
+    margin: 40px auto 0 auto;
+    padding-bottom: 30px;
+}
+.social-icons ul a{
+    color: #fff;
+    font-size: 30px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: var(--transition);
+}
+.social-icons ul{
+    display: flex;
+    justify-content: space-around;
+}
+.social-icons ul a:hover{
+    background: skyblue!important;
+    border-color: skyblue!important;
+    text-decoration: none;
+}
+
+/* section one */
+.section-one{
+    margin: 40px 0;
+    min-height: 100vh;
+}
+.sec-one-left{
+    height: 100vh;
+    
+     background:url("../images/project-main.jpg") ;
+ background-size: cover;
+    box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
+}
+.sec-one-left div{
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+}
+.sec-one-left div h3{
+    font-size: 30px;
+    
+}
+.sec-one-left div p{
+    font-weight: 300;
+    opacity: 0.8;
+    font-size: 23px;
+}
+.sec-one-right h3{
+    color: var(--lightGrey);
+}
+.sec-one-right >h3{
+    text-align: center;
+}
+.sec-one-right p{
+    opacity: 0.9;
+    font-weight: 300;
+}
+.work-content{
+    margin: 50px 0;
+}
+.work-imgs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+}
+.work-img-1{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("../images/porject-1.jpg") center/cover no-repeat;
+    height: 300px;
+    transition: var(--transition);
+}
+.work-img-2{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("../images/porject-2.jpg") center/cover no-repeat;
+    height: 300px;
+    transition: var(--transition);
+}
+.work-imgs div:hover{
+    box-shadow: 0 0 8px #000;
+    
+}
+.section-two{
+    margin: 40px 0;
+}
+.section-two h2{
+    text-align: center;
+    font-size: 40px;
+}
+.section-two span{
+    color: var(--darkGrey);
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.insta-imgs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.insta-imgs > div{
+    position: relative;
+}
+
+
+
+/*footer*/
+
+.footer{
+    background: black!important;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+.footer-container > div{
+    margin: 40px 0;
+}
+.footer-container h2{
+    color: var(--lightGreen);
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 7px;
+    color: white;
+}
+.footer-container p{
+    opacity: 0.7;
+    font-size: 20px;
+    color: white;
+}
